@@ -1,0 +1,169 @@
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+
+	.page{
+		width: 100%;
+		left: 0px;
+	}
+	
+	.row{
+		max-width: 860px;
+	}
+
+	.home-hero{
+		width: 100% !important;
+	}
+	
+	.exit{
+		right: 85px;
+	}
+	
+	.project{
+		top: 60px;
+		right: 60px;
+		width: 90%;
+	}
+	
+	#contact{
+		position: absolute;
+	}
+	
+	
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+	#nav-holder{
+		left: 0px !important;
+	}
+
+
+}
+
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+
+	.mobile-toggle{
+		display: block !important;
+	}
+	
+	#nav-holder{
+		left: -60px;
+	}
+	
+	#social-holder{
+		display: none !important;
+	}
+	
+	.page{
+		min-width: 868px;
+	}
+	
+	.project{
+		top: 60px;
+		right: 0px;
+		
+	}
+	
+	.exit{
+		right: 25px;
+	}
+	
+	
+
+
+}
+
+
+@media only screen and (max-width: 767px){
+
+	#nav-holder{
+		left: -60px;
+	}
+	
+	.slidesjs-container{
+		width: 100% !important;
+		height: 200px !important;
+	}
+	
+	#home-content{
+		padding-top: 80px !important;
+	}
+	
+	.hero-h1{
+		font-size: 60px;
+		text-align: center;
+	}
+	
+	.page{
+		width: 100%;
+		left: 0px;
+	}
+	
+	.process-wrapper{
+		margin-bottom: 22px;
+	}
+	
+	.service-wrapper{
+		margin-bottom: 22px;
+	}
+
+	.testimonial-customer{
+		margin-bottom: 22px;
+	}
+	
+	.team-wrap{
+		width: 80%;
+		margin: 0px auto;
+		margin-bottom: 22px;
+	}
+	
+	#about .page-spiel p{
+		columns: 100px 1;
+	-webkit-columns: 100px 1;
+	-moz-columns: 100px 1;
+	}
+	
+	.project{
+		width: 100%;
+		right: 0px;
+		max-height: 800px;
+		top: 80px;
+		position: absolute;
+	}
+	
+	.project-details{
+		margin-bottom: 44px;
+	}
+	
+	.page-spiel p{
+		width: 100%;
+	}
+	
+	#contact{
+		width: 100%;
+		left: 0px;
+		position: absolute;
+	}
+	
+	#home .btn{
+		display: none !important;
+	}
+	
+	.hero-p{
+		font-size: 16px;
+	}
+
+}
